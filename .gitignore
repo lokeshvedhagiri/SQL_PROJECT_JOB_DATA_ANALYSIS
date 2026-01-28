@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+
+# Data & reports
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.docx
+
+# Secrets
+*.env
+*.key
+secret.key
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/

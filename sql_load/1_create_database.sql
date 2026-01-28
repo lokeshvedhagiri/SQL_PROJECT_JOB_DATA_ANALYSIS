@@ -1,0 +1,4 @@
+CREATE DATABASE mydb
+;
+
+-- DROP DATABASE IF EXISTS mydb;
