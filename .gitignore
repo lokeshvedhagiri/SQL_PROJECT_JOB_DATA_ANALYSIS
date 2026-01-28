@@ -23,3 +23,6 @@ secret.key
 
 # Jupyter Notebook
 .ipynb_checkpoints/
+
+# Ignore entire data folder
+csv_files/
