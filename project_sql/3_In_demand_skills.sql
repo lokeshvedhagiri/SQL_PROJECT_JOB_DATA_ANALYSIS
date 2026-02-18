@@ -11,7 +11,8 @@ SELECT skills, COUNT(sjd.job_id) as demand_count
 FROM job_postings_fact as jpf
 INNER JOIN skills_job_dim as sjd ON jpf.job_id = sjd.job_id
 INNER JOIN skills_dim as sd on sjd.skill_id = sd.skill_id
-WHERE jpf.job_title_short = 'Data Analyst'
+WHERE jpf.job_title_short = 'Data Analyst' AND
+      jpf.job_location = 'Anywhere'
 GROUP BY skills
 ORDER BY demand_count DESC
 LIMIT 10
